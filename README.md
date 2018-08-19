@@ -49,23 +49,35 @@ You may need to increase heapspace size for random mode for DFS, by adding -Xss5
 Interpreting the output
 -----------------------
 decycling's and DOCKS's outputs should look like this:
+
 AAAACAAA
+
 AAAAGAAA
+
 AAAATAAA
+
 AAACCAAA
+
 ...
+
 ATAACGAA
+
 TCACCGAA
+
 GCCTACTA
+
 TCCTCCTA
+
 Each line is a k-mer in the set.
 
 Citing DOCKS
 ------------
 DOCKS can be cited as follows:
+
 Compact universal k-mer sets 
 Yaron Orenstein, David Pellow, Guillaume Marcais, Ron Shamir and Carl Kingsford.
 WABI 2016.
+
 Designing small universal k-mer hitting sets for improved analysis of high-throughput sequencing
 PLoS Computational Biology 2017.
 
